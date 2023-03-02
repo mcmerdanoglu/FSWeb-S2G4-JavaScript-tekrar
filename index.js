@@ -127,6 +127,7 @@ console.log(CemberinAlani(15, pi));
 		tekraredensayilar.push(sayi + " sayısı " + sayilarinTekrarSayisi[sayi] + " kere tekrar edilmiştir");
 	  }
 	}
+	
 	console.log(tekraredensayilar);
 	
 
