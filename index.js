@@ -112,8 +112,23 @@ console.log(CemberinAlani(15, pi));
 	//3f çözümü
 	
 	/* kodlar buraya */
+	var sayilarinTekrarSayisi = {};
+	for (var i = 0; i < sayilar.length; i++) {
+	  if (sayilarinTekrarSayisi[sayilar[i]] === undefined) {
+		sayilarinTekrarSayisi[sayilar[i]] = 1;
+	  } else {
+		sayilarinTekrarSayisi[sayilar[i]]++;
+	  }
+	}
 
-
+	var tekraredensayilar = [];
+	for (var sayi in sayilarinTekrarSayisi) {
+	  if (sayilarinTekrarSayisi[sayi] > 1) {
+		tekraredensayilar.push(sayi + " sayısı " + sayilarinTekrarSayisi[sayi] + " kere tekrar edilmiştir");
+	  }
+	}
+	console.log(tekraredensayilar);
+	
 
 
 	
