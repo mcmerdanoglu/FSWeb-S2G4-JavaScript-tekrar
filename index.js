@@ -105,7 +105,9 @@ console.log(CemberinAlani(15, pi));
 	//3e çözümü
 
 	/* kodlar buraya */
-	
+	var siralisayilar = besyuzdenkucuksayilar.sort((a, b)=> a-b); 
+    console.log(siralisayilar);
+
 	
 	//3f çözümü
 	
