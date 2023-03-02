@@ -78,9 +78,12 @@ console.log(CemberinAlani(15, pi));
 	//3a çözümü
 
 	/* kodlar buraya */
-	
-	
-	
+	var enbuyuk = sayilar[0];
+	var enkucuk = sayilar[0]; 
+	for(let i=0;i<sayilar.length;i++) {if (sayilar[i]>enbuyuk) {enbuyuk=sayilar[i];}};
+	console.log(enbuyuk);
+	for(let i=0;i<sayilar.length;i++) {if (sayilar[i]<enkucuk) {enkucuk=sayilar[i];}};
+	console.log(enkucuk);
 	// 3b çözümü:
 
 	/* kodlar buraya */
