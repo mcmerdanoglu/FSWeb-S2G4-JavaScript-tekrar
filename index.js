@@ -87,9 +87,9 @@ console.log(CemberinAlani(15, pi));
 	// 3b çözümü:
 
 	/* kodlar buraya */
-		
-		
-		
+	var ucetambolunenler = [];
+	sayilar.forEach((sayi,index,sayilar)=> {if (sayi%3===0) {ucetambolunenler.push(sayilar[index]);}}); 	
+	console.log(ucetambolunenler);	
 	//3c çözümü:
 	
 	/* kodlar buraya */
