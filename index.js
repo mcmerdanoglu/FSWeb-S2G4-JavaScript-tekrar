@@ -93,9 +93,9 @@ console.log(CemberinAlani(15, pi));
 	//3c çözümü:
 	
 	/* kodlar buraya */
-
-	
-	
+    var ucebolunenlerintoplami = ucetambolunenler.reduce((total, values)=> total+values,0);
+	//const cumulative = Finaller.reduce((total, finalMatch) => total + finalMatch["Home Team Goals"] + finalMatch["Away Team Goals"],0);
+	console.log(ucebolunenlerintoplami);
 	//3d çözümü
 	
 	/* kodlar buraya */
